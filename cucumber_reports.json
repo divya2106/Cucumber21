@@ -1,0 +1,154 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2019-12-13T10:03:11.522Z",
+        "line": 6,
+        "name": "Newuser Signup",
+        "description": "",
+        "id": "title-of-your-feature;newuser-signup",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2130400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User navigates to website",
+            "match": {
+              "location": "StepDef3.user_navigates_to_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 283800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "enters \"lalitha\" and 123",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"lalitha\"",
+                  "offset": 7
+                },
+                {
+                  "val": "123",
+                  "offset": 21
+                }
+              ],
+              "location": "StepDef3.enters_and(String,Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 319100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click on the signup",
+            "match": {
+              "location": "StepDef3.click_on_the_signup()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 274300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "welcomee page is appeared",
+            "match": {
+              "location": "StepDef3.welcomee_page_is_appeared()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@unit"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-12-13T10:03:11.893Z",
+        "line": 14,
+        "name": "Login existing user",
+        "description": "",
+        "id": "title-of-your-feature;login-existing-user",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 113600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User enters user name",
+            "match": {
+              "location": "StepDef3.user_enters_user_name()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 61300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User enters password",
+            "match": {
+              "location": "StepDef3.user_enters_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 52600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User clicks on login button",
+            "match": {
+              "location": "StepDef3.user_clicks_on_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 66000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Home page is displayed",
+            "match": {
+              "location": "StepDef3.home_page_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@unit"
+          }
+        ]
+      }
+    ],
+    "name": "Title of your feature",
+    "description": "  I want to use this template for my feature file",
+    "id": "title-of-your-feature",
+    "keyword": "Feature",
+    "uri": "classpath:p3/multiple.feature",
+    "tags": []
+  }
+]
